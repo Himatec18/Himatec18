@@ -1,0 +1,6 @@
+document.querySelectorAll('#blog article a').forEach(item => {
+    item.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Thanks for reading! More content will be available soon.');
+    });
+});
